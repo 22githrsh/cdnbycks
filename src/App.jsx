@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 
 function App() {
   window.ketchup = () => {
@@ -11,5 +10,4 @@ function App() {
   return <button onClick={window.ketchup}>Show Image</button>;
 }
 
-ReactDOM.render(<App />, document.getElementById('root'));
-
+export default App; 
